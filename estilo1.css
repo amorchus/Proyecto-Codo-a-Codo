@@ -69,6 +69,16 @@ main{
 	font-family: 'Gochi Hand', cursive;
 }
 
+
+@media screen and (max-width:768px){
+	#titulo{
+		font-size: 26px;
+	}
+	.iconoPizza{
+		width: 30px;
+	}
+}
+
 /*---------------ESTILOS PARA EL MAIN SUPERIOR----------------*/
 
 /*------------Imagen superior con textos y botones----------------*/
@@ -218,9 +228,9 @@ main{
 
 @media screen and (max-width:768px){
 	.contenedor{
-/*		height: 250px;*/
+
 		background-color: black;
-		height: 30vh;
+		height: 35vh;
 	}
 	.contenedor img{
 		opacity: 0.95;
@@ -280,8 +290,8 @@ main{
 	border: 4px double #52E366;
 	border-radius: 12px 12px 0 0;
 	display: inline-block;
-	margin: 15px 35px;
-	max-width: 350px;
+	margin: 25px 25px;
+	max-width: 340px;
 
 	transition: opacity 0.7s, transform 0.7s;
 }
@@ -554,3 +564,16 @@ main{
 	}
 
 }
+
+.carousel-item img{
+		max-height: 500px;
+		min-height: 100px;
+		width: 100%;
+		object-fit: cover;
+		object-position: bottom;
+	}
+	
+	.carousel-item {
+		align-items: center;
+	}
+
