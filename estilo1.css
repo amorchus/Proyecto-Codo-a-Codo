@@ -53,6 +53,12 @@ main{
 		width:63px;
 		height:63px;
 		line-height: 58px;
+
+	}
+	.icono{
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
@@ -94,10 +100,10 @@ main{
 	background: linear-gradient(to right, rgb(0, 0, 0, .75), rgb(0, 0, 0, .75)),
 	url("images/local.jpg");
 /*    object-fit: cover;*/
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-border-top: 4px solid #9acd32;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-top: 4px solid #9acd32;
 }
 
 .contenedor img{
@@ -118,8 +124,8 @@ border-top: 4px solid #9acd32;
 
 .titulo{
 /*	font-family: 'Croissant One', cursive;*/
-font-family: 'Gochi Hand', cursive;
-font-size: 48px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 48px;
 }
 .cuerpo p{
 	text-align: right;
