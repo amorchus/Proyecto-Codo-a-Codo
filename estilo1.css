@@ -86,7 +86,15 @@ main{
 		font-size: 26px;
 	}
 	.iconoPizza{
-		width: 30px;
+		width: 50px;
+		margin:2px;
+		paddin:2px;
+	}
+	
+	.btn_nav{
+		font-size: 15px;
+		margin:2px;
+		paddin:2px;
 	}
 }
 
